@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.jmu.pojo"/>
+        <package name="com.jmu.pojo"/>
     </typeAliases>
 
     <mappers>
