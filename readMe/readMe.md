@@ -23,7 +23,7 @@ public class User{
 ```
    * 关于实体类字段的命名
       * 实体类的字段名称要和数据库表中的属性名称一致。      
-      * 如果数据库中表属性的名称是a_b的形式，则实体类字段名称对应的可以为aB。例如：数据库表中有属性user_name，则实体类字段名可以为userName，也可以为user_name。
+      * 如果数据库中表属性的名称是a_b的形式，则实体类字段名称对应的可以为aB。例如：数据库表中有属性user_name，则实体类字段名可以为userName，也可以为user_name。但是推荐为userName。
    
 * ####怎么写mapper/dao层代码
     * dao层的代码写在mapper包中，我们只写接口，不写实现类。命名方式统一都是xxxMapper.java，这么命名是一种规范。
